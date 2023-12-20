@@ -1,0 +1,81 @@
+<mxfile host="Electron" modified="2023-12-20T13:26:50.249Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/22.1.2 Chrome/114.0.5735.289 Electron/25.9.4 Safari/537.36" etag="im_0gogZp5WrdQW0O_kD" version="22.1.2" type="device">
+  <diagram name="Page-1" id="nIb3ZuZ9Q_B74t0-nEf1">
+    <mxGraphModel dx="1036" dy="649" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ApyhOsfdKoiyKaarVNgZ-1" value="&#xa;&lt;span style=&quot;color: rgba(0, 0, 0, 0.87); font-family: Roboto, Arial, sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: 0.2px; orphans: 2; text-align: justify; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(252, 252, 252); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;Verilmiş ədədlər siyahısındaki rəqəmlərinin sayı 2-dən böyük olan ədədlərin cəmini tapan alqoritm&lt;/span&gt;&#xa;&#xa;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="80" y="40" width="130" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="ApyhOsfdKoiyKaarVNgZ-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ApyhOsfdKoiyKaarVNgZ-2" target="ApyhOsfdKoiyKaarVNgZ-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ApyhOsfdKoiyKaarVNgZ-2" value="Start" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="40" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ApyhOsfdKoiyKaarVNgZ-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ApyhOsfdKoiyKaarVNgZ-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="440" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ApyhOsfdKoiyKaarVNgZ-3" value="numbers" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ApyhOsfdKoiyKaarVNgZ-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ApyhOsfdKoiyKaarVNgZ-7" target="ApyhOsfdKoiyKaarVNgZ-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ApyhOsfdKoiyKaarVNgZ-7" value="sum = 0" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="290" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ApyhOsfdKoiyKaarVNgZ-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ApyhOsfdKoiyKaarVNgZ-8" target="ApyhOsfdKoiyKaarVNgZ-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ApyhOsfdKoiyKaarVNgZ-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ApyhOsfdKoiyKaarVNgZ-8" target="ApyhOsfdKoiyKaarVNgZ-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ApyhOsfdKoiyKaarVNgZ-8" value="i = 0; i &amp;lt; numbers.length; i++" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="345" y="390" width="190" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ApyhOsfdKoiyKaarVNgZ-13" value="true" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ApyhOsfdKoiyKaarVNgZ-10" target="ApyhOsfdKoiyKaarVNgZ-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ApyhOsfdKoiyKaarVNgZ-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ApyhOsfdKoiyKaarVNgZ-10" target="ApyhOsfdKoiyKaarVNgZ-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="440" y="670" />
+              <mxPoint x="770" y="670" />
+              <mxPoint x="770" y="430" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ApyhOsfdKoiyKaarVNgZ-18" value="false" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ApyhOsfdKoiyKaarVNgZ-17">
+          <mxGeometry x="0.1044" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ApyhOsfdKoiyKaarVNgZ-10" value="numbers[i]&amp;nbsp; &amp;gt;= 100 || numbers[i] &amp;lt;= -100" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="325" y="530" width="230" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="ApyhOsfdKoiyKaarVNgZ-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ApyhOsfdKoiyKaarVNgZ-12" target="ApyhOsfdKoiyKaarVNgZ-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="680" y="430" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ApyhOsfdKoiyKaarVNgZ-12" value="sum += numbers[i]" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="630" y="550" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ApyhOsfdKoiyKaarVNgZ-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ApyhOsfdKoiyKaarVNgZ-19" target="ApyhOsfdKoiyKaarVNgZ-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ApyhOsfdKoiyKaarVNgZ-19" value="sum" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="110" y="390" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ApyhOsfdKoiyKaarVNgZ-21" value="End" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="530" width="120" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
